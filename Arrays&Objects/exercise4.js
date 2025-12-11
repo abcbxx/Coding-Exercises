@@ -28,4 +28,4 @@ const groupScoresByStudent = (scores) => {
   }, {}); // Initial accumulator is an empty object
 };
 
-// console.log(groupScoresByStudent(studentScores));
+console.log(groupScoresByStudent(studentScores));

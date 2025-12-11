@@ -18,4 +18,4 @@ const calculateNetBalance = (transactionList) => {
 };
 
 // Expected Output: -500
-// console.log(calculateNetBalance(transactions));
+console.log(calculateNetBalance(transactions));

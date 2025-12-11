@@ -27,5 +27,5 @@ const updateDatabasePort = (originalConfig, newPort) => {
 const newConfig = updateDatabasePort(config, 3306);
 
 // Expected Checks:
-// console.log(newConfig.database.port); // 3306
-// console.log(config.database.port);    // 5432 (Original must be unchanged)
+console.log(newConfig.database.port); // 3306
+console.log(config.database.port);    // 5432 (Original must be unchanged)

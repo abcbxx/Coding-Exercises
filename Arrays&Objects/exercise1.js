@@ -12,4 +12,4 @@ const getDeveloperNames = (userList) => {
 };
 
 // Expected Output: ['Alice', 'Charlie']
-// console.log(getDeveloperNames(users));
+console.log(getDeveloperNames(users));

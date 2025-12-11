@@ -26,4 +26,4 @@ const calculateTotalRevenue = (productsList, salesList) => {
 };
 
 // Expected Output: 350
-// console.log(calculateTotalRevenue(products, sales));
+console.log(calculateTotalRevenue(products, sales));
